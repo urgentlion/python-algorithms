@@ -1,7 +1,6 @@
-def palindrome(str):
-    reversed = str[::-1]
-    return reversed == str
+def rev_str(str):
+    return str[::-1]
 
 
-result = palindrome('racecar')
+result = rev_str("love")
 print(result)
